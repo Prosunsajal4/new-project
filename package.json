@@ -1,0 +1,10 @@
+{
+  "name": "new-project",
+  "version": "0.1.0",
+  "description": "A small utility app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}
