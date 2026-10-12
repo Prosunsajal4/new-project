@@ -1,10 +1,26 @@
 {
-  "name": "new-project",
-  "version": "0.1.0",
-  "description": "A small utility app",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
+  "name": "plaincheck",
+  "version": "1.0.0",
+  "description": "CLI readability analyzer - score text for plain language, catch hard-to-read sentences, and enforce a max grade level in CI",
+  "main": "src/readability.js",
+  "bin": {
+    "plaincheck": "bin/plaincheck.js"
   },
-  "license": "MIT"
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/plaincheck.js"
+  },
+  "keywords": [
+    "readability",
+    "plain-language",
+    "flesch-kincaid",
+    "accessibility",
+    "cli",
+    "writing"
+  ],
+  "author": "Prosunsajal4",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
 }
